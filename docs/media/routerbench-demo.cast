@@ -1,0 +1,10 @@
+{"version": 2, "width": 100, "height": 28, "duration": 39.0, "title": "RouterBench: offline rules benchmark (paced, abridged)", "env": {"TERM": "xterm-256color"}}
+[0, "o", "\u001b[2J\u001b[H# Inspect the route before connecting an agent\r\n\r\n# RouterBench v0.1.0 / Research Preview\r\n\r\n# Offline rules benchmark on 32 synthetic tasks.\r\n# Python standard library. No API key.\r\n# Recommendations only: execute=false.\r\n"]
+[4, "o", "\u001b[2J\u001b[H# 1 / Predict from tasks only\r\n\r\n$ python3 -m routerbench predict \\\r\n    --inputs datasets/phase3/inputs.json \\\r\n    --adapter rules --output runs/launch-demo\r\n"]
+[5, "o", "\r\n# Prediction manifest (selected fields)\r\n{\r\n  \"count\": 32,\r\n  \"adapter\": \"rules\",\r\n  \"paid_calls\": 0\r\n}\r\n"]
+[12, "o", "\u001b[2J\u001b[H# 2 / Score against separate reference labels\r\n\r\n$ python3 -m routerbench score \\\r\n    --run runs/launch-demo \\\r\n    --labels datasets/phase3/labels.json \\\r\n    --output runs/launch-demo/score.json\r\n"]
+[13, "o", "\r\n# Score report (selected fields)\r\n{\r\n  \"n\": 32,\r\n  \"observed\": 32,\r\n  \"coverage\": 1.0,\r\n  \"statuses\": {\r\n    \"ok\": 32\r\n  }\r\n}\r\n"]
+[19, "o", "\u001b[2J\u001b[H# 3 / Read agreement, not a performance claim\r\n\r\n$ cat runs/launch-demo/summary.txt\r\n"]
+[20, "o", "\r\nAdapter: rules | Phase 3: 32 synthetic tasks\r\nObserved: 32/32 | Coverage: 100%\r\n\r\nReference-label agreement (not model performance):\r\nDifficulty               12/32 (37.5%)\r\nOperational risk         32/32 (100.0%)\r\nModel profile + effort   11/32 (34.4%)\r\nAll dimensions            7/32 (21.9%)\r\n\r\nPaid API calls: 0\r\nRecommendations only: execute=false\r\n"]
+[31, "o", "\u001b[2J\u001b[H# Research preview: keep the limits visible\r\n\r\n# AI-generated task/label pairs; no independent human review.\r\n# Jev was not measured on this 32-task set.\r\n# Production safety is unproven.\r\n\r\n# Read the method. Run the baseline. Inspect the disagreements.\r\n\r\nhttps://github.com/omersuve/routerbench\r\n"]
+[39, "o", "\r\n"]

@@ -134,3 +134,23 @@ unproven. No global settings, installed skills or other projects need changes.
 Machine-readable evidence: [summary](../results/summary.json) and
 [execution](../results/execution.json). Future work must preserve original
 observations and record new experiments separately.
+
+## Initial developer introduction
+
+The public repository introduction now adds explicit clone/root-directory steps
+and a short demo link to the README. [Demo notes](demo.md) document an actual
+offline rules run on the unchanged phase 3 inputs: 32/32 observed, model + effort
+11/32, all dimensions 7/32. The 39-second MP4, terminal playback and transcript
+use saved CLI results, with reading pauses and abridged fields clearly disclosed;
+they make no latency claim. No local-model or paid-provider inference was run.
+
+The repo metadata describes rules, local models and recorded providers as an
+offline LLM-routing research harness. Discovery topics cover llm-routing,
+ai-agents, model-selection, local-llm, benchmarking, llm-evaluation, python and
+ollama. [The X launch draft](launch-x.md) remains unposted. Existing v0.1.0 release,
+runtime behavior, frozen benchmark inputs/labels and recorded results are retained.
+Media is documentation, not a new measurement reference; it is outside the
+source export's existing suffix allowlist. No global settings changed.
+Verification: 44 offline tests, source-surface/link checks, exact regeneration
+of the documented demo summary and complete MP4 decoding pass. The video is
+39.0 seconds at 1280×720 and 30 fps; encoded scenes were visually inspected.

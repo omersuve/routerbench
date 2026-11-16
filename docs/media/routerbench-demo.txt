@@ -1,0 +1,74 @@
+RouterBench terminal walkthrough: 39 seconds, offline rules only.
+Paced playback of actual CLI results; output abridged.
+Pauses are for reading and do not represent benchmark latency.
+The cat summary is derived from the saved score.json; full predictions and
+score remain in the local run, not substituted historical provider output.
+
+[00–04s] Inspect the route before connecting an agent
+# Inspect the route before connecting an agent
+
+# RouterBench v0.1.0 / Research Preview
+
+# Offline rules benchmark on 32 synthetic tasks.
+# Python standard library. No API key.
+# Recommendations only: execute=false.
+
+[04–12s] 1 / Predict from tasks only
+# 1 / Predict from tasks only
+
+$ python3 -m routerbench predict \
+    --inputs datasets/phase3/inputs.json \
+    --adapter rules --output runs/launch-demo
+
+# Prediction manifest (selected fields)
+{
+  "count": 32,
+  "adapter": "rules",
+  "paid_calls": 0
+}
+
+[12–19s] 2 / Score against separate reference labels
+# 2 / Score against separate reference labels
+
+$ python3 -m routerbench score \
+    --run runs/launch-demo \
+    --labels datasets/phase3/labels.json \
+    --output runs/launch-demo/score.json
+
+# Score report (selected fields)
+{
+  "n": 32,
+  "observed": 32,
+  "coverage": 1.0,
+  "statuses": {
+    "ok": 32
+  }
+}
+
+[19–31s] 3 / Read agreement, not a performance claim
+# 3 / Read agreement, not a performance claim
+
+$ cat runs/launch-demo/summary.txt
+
+Adapter: rules | Phase 3: 32 synthetic tasks
+Observed: 32/32 | Coverage: 100%
+
+Reference-label agreement (not model performance):
+Difficulty               12/32 (37.5%)
+Operational risk         32/32 (100.0%)
+Model profile + effort   11/32 (34.4%)
+All dimensions            7/32 (21.9%)
+
+Paid API calls: 0
+Recommendations only: execute=false
+
+[31–39s] Research preview: keep the limits visible
+# Research preview: keep the limits visible
+
+# AI-generated task/label pairs; no independent human review.
+# Jev was not measured on this 32-task set.
+# Production safety is unproven.
+
+# Read the method. Run the baseline. Inspect the disagreements.
+
+https://github.com/omersuve/routerbench

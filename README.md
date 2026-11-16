@@ -13,15 +13,22 @@ It observes recommendations; every result has `execute=false`.
 Python 3.11+ · standard library only · MIT · no API key or installation required.
 The package contains no paid API transport.
 
+[Watch the 39-second offline terminal demo](docs/demo.md).
+
 ## Quick start
 
-Clone this repository or extract the release source archive, then run:
+From a fresh clone:
 
 ```sh
+git clone https://github.com/omersuve/routerbench.git
+cd routerbench
 python3 -m unittest discover -s tests -v
 python3 -m routerbench predict --inputs datasets/phase3/inputs.json --adapter rules --output runs/rules
 python3 -m routerbench score --run runs/rules --labels datasets/phase3/labels.json --output runs/rules-score.json
 ```
+
+You can also extract the [release source archive](https://github.com/omersuve/routerbench/releases/tag/v0.1.0)
+and run the Python commands from its root directory.
 
 Prediction reads tasks only; scoring opens labels after predictions are complete
 and hash-sealed. Existing outputs are never overwritten: choose a new run name
