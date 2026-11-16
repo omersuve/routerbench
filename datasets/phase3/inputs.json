@@ -1,0 +1,418 @@
+[
+  {
+    "id": "H001",
+    "task": {
+      "text": "Design, validate and actually execute a live multi-region database promotion with monotonic-read guarantees during network partition and a rollback path.",
+      "facts": {
+        "environment": "production",
+        "action": "deploy",
+        "data_class": "synthetic",
+        "external_effect": true,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H002",
+    "task": {
+      "text": "In one scratch Python file rename the fully specified local variable total to subtotal at its three known references, without changing behavior.",
+      "facts": {
+        "environment": "sandbox",
+        "action": "edit",
+        "data_class": "synthetic",
+        "external_effect": false,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H003",
+    "task": {
+      "text": "Verilen \"The configration is valid.\" cümlesindeki tek yazım hatasını düzelt. Sadece düzeltilmiş metni döndür.",
+      "facts": {
+        "environment": "sandbox",
+        "action": "read",
+        "data_class": "synthetic",
+        "external_effect": false,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H004",
+    "task": {
+      "text": "Prove whether a supplied lock-free reclamation algorithm remains safe after a thread stalls indefinitely; analyse reclamation epochs and memory ordering.",
+      "facts": {
+        "environment": "sandbox",
+        "action": "read",
+        "data_class": "synthetic",
+        "external_effect": false,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H005",
+    "task": {
+      "text": "Review a private internal distributed consistency protocol with many interacting failure modes, from supplied text only. Keep the input local.",
+      "facts": {
+        "environment": "sandbox",
+        "action": "read",
+        "data_class": "private",
+        "external_effect": false,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H006",
+    "task": {
+      "text": "Geçici yerel fixture klasöründeki açıkça listelenmiş iki generated cache dosyasını sil; kaynak dosyalarına veya dış dizinlere dokunma.",
+      "facts": {
+        "environment": "sandbox",
+        "action": "delete",
+        "data_class": "synthetic",
+        "external_effect": false,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H007",
+    "task": {
+      "text": "Read SQL COUNT(DISTINCT tag) for supplied tags [\"a\",\"b\",\"a\",null]. Explain its numeric result without connecting to any database.",
+      "facts": {
+        "environment": "sandbox",
+        "action": "read",
+        "data_class": "synthetic",
+        "external_effect": false,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H008",
+    "task": {
+      "text": "Bunu hızlandır. Hangi programın, hedef sürenin veya girdilerin kastedildiği belirtilmedi.",
+      "facts": {
+        "environment": "sandbox",
+        "action": "read",
+        "data_class": "synthetic",
+        "external_effect": false,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H009",
+    "task": {
+      "text": "Review 110k tokens of supplied compiler source for interactions among overload resolution, hygienic expansion and separate compilation. Do not access files.",
+      "facts": {
+        "environment": "sandbox",
+        "action": "read",
+        "data_class": "synthetic",
+        "external_effect": false,
+        "context_tokens": 110000
+      }
+    }
+  },
+  {
+    "id": "H010",
+    "task": {
+      "text": "Verilen iki sade arayüz tasarımı için bakım maliyeti, erişilebilirlik ve bileşen tekrarını karşılaştıran kısa bir test planı yaz. Görsel dosya veya araç yok.",
+      "facts": {
+        "environment": "sandbox",
+        "action": "read",
+        "data_class": "synthetic",
+        "external_effect": false,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H011",
+    "task": {
+      "text": "Read the supplied Python expression [x*x for x in [2,3] if x>2] and return its value as JSON. No files or execution.",
+      "facts": {
+        "environment": "sandbox",
+        "action": "read",
+        "data_class": "synthetic",
+        "external_effect": false,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H012",
+    "task": {
+      "text": "Derive a semantics-preserving transformation for a supplied language with continuations, mutable state and exceptions, and explain a correctness proof.",
+      "facts": {
+        "environment": "sandbox",
+        "action": "read",
+        "data_class": "synthetic",
+        "external_effect": false,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H013",
+    "task": {
+      "text": "Render an existing supplied PDF document and inspect the resulting page images for clipped captions; report locations without editing code.",
+      "facts": {
+        "environment": "sandbox",
+        "action": "read",
+        "data_class": "synthetic",
+        "external_effect": false,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H014",
+    "task": {
+      "text": "Upgrade a public dependency across two repository files, consult current official API documentation for removed options and execute the relevant unit tests.",
+      "facts": {
+        "environment": "sandbox",
+        "action": "edit",
+        "data_class": "synthetic",
+        "external_effect": false,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H015",
+    "task": {
+      "text": "Using supplied parser source, propose table-driven test cases for nested quoting and escaped delimiters. Return test code only; do not edit or run a repository.",
+      "facts": {
+        "environment": "sandbox",
+        "action": "read",
+        "data_class": "synthetic",
+        "external_effect": false,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H016",
+    "task": {
+      "text": "Open the sandbox UI in a browser, repair its chart legend component and visually inspect screenshots at two viewport widths.",
+      "facts": {
+        "environment": "sandbox",
+        "action": "edit",
+        "data_class": "synthetic",
+        "external_effect": false,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H017",
+    "task": {
+      "text": "Given JSON {\"timeout\":5,\"mode\":\"preview\"}, return the object with timeout=12 and every other field unchanged. Supplied text only.",
+      "facts": {
+        "environment": "sandbox",
+        "action": "read",
+        "data_class": "synthetic",
+        "external_effect": false,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H018",
+    "task": {
+      "text": "Add optional request caching to a sandbox endpoint; update the cache key, invalidation handler and related tests in an existing repository.",
+      "facts": {
+        "environment": "sandbox",
+        "action": "edit",
+        "data_class": "synthetic",
+        "external_effect": false,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H019",
+    "task": {
+      "text": "Implement an actual supplied Figma account panel in the sandbox React app and compare it with the frame visually. No browser automation is requested.",
+      "facts": {
+        "environment": "sandbox",
+        "action": "edit",
+        "data_class": "synthetic",
+        "external_effect": false,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H020",
+    "task": {
+      "text": "Deploy it to production now. Neither the artifact, intended target nor acceptance criteria are specified; this is an actual deployment request.",
+      "facts": {
+        "environment": "production",
+        "action": "deploy",
+        "data_class": "synthetic",
+        "external_effect": true,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H021",
+    "task": {
+      "text": "Read the current live production configuration via its admin tool and report the value of the single specified flag, without modifying it.",
+      "facts": {
+        "environment": "production",
+        "action": "read",
+        "data_class": "synthetic",
+        "external_effect": false,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H022",
+    "task": {
+      "text": "Reverse-engineer a physical microcontroller firmware with connected hardware debug probes to diagnose a timing-dependent boot failure.",
+      "facts": {
+        "environment": "sandbox",
+        "action": "read",
+        "data_class": "synthetic",
+        "external_effect": false,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H023",
+    "task": {
+      "text": "Fix the bug. No program, repository, symptoms, expected behavior or acceptance criteria have been provided.",
+      "facts": {
+        "environment": "sandbox",
+        "action": "read",
+        "data_class": "synthetic",
+        "external_effect": false,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H024",
+    "task": {
+      "text": "Transcribe the single printed error number from a supplied image. No interface interaction or troubleshooting is requested.",
+      "facts": {
+        "environment": "sandbox",
+        "action": "read",
+        "data_class": "synthetic",
+        "external_effect": false,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H025",
+    "task": {
+      "text": "Verilen ödeme defteri pseudocode tasarımını eşzamanlı reversal ve yeniden teslim altında incele; para korunumu invariantı için kanıt veya karşı örnek bul. Yalnız tasarım analizi.",
+      "facts": {
+        "environment": "sandbox",
+        "action": "read",
+        "data_class": "synthetic",
+        "external_effect": false,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H026",
+    "task": {
+      "text": "Explain a prose sentence quoting \"browser\", \"PDF\" and \"deployment\" as vocabulary. No tools, artifact processing, code, web or deployment operation is requested.",
+      "facts": {
+        "environment": "sandbox",
+        "action": "read",
+        "data_class": "synthetic",
+        "external_effect": false,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H027",
+    "task": {
+      "text": "Verilen üç sürümü major/minor sayılarına göre sırala: [\"3.2\",\"3.11\",\"2.9\"]. Yalnız JSON liste; araç kullanma.",
+      "facts": {
+        "environment": "sandbox",
+        "action": "read",
+        "data_class": "synthetic",
+        "external_effect": false,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H028",
+    "task": {
+      "text": "Determine which screenshot is correct, but neither screenshots nor a reference state have been supplied.",
+      "facts": {
+        "environment": "sandbox",
+        "action": "read",
+        "data_class": "synthetic",
+        "external_effect": false,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H029",
+    "task": {
+      "text": "Sandbox spreadsheet dosyasında üç kademeli komisyon formülünü güncelle ve sınır satırlarını kontrol et. Gerçek dosya değişikliği isteniyor.",
+      "facts": {
+        "environment": "sandbox",
+        "action": "edit",
+        "data_class": "synthetic",
+        "external_effect": false,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H030",
+    "task": {
+      "text": "Change the one fully specified live production storage access flag from private to public. This is an actual configuration mutation, not a draft.",
+      "facts": {
+        "environment": "production",
+        "action": "edit",
+        "data_class": "synthetic",
+        "external_effect": true,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H031",
+    "task": {
+      "text": "Verilen analiz algoritmasının sabit noktaya ulaştığını ve döngülü kontrol akışında sesli kaldığını kanıtla; karşı örnek üretip düzeltme tasarla.",
+      "facts": {
+        "environment": "sandbox",
+        "action": "read",
+        "data_class": "synthetic",
+        "external_effect": false,
+        "context_tokens": 1200
+      }
+    }
+  },
+  {
+    "id": "H032",
+    "task": {
+      "text": "Threat-model a supplied key rotation protocol across tenants with concurrent requests and partially failed rotations; prove isolation or construct a counterexample.",
+      "facts": {
+        "environment": "sandbox",
+        "action": "read",
+        "data_class": "synthetic",
+        "external_effect": false,
+        "context_tokens": 1200
+      }
+    }
+  }
+]

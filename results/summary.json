@@ -1,0 +1,1189 @@
+{
+  "schema_version": "0.1",
+  "phase1": {
+    "rules": {
+      "n": 28,
+      "observed": 28,
+      "coverage": 1.0,
+      "statuses": {
+        "ok": 28
+      },
+      "metrics": {
+        "difficulty": {
+          "correct": 23,
+          "total": 28,
+          "accuracy": 0.8214285714285714,
+          "yield": 0.8214285714285714,
+          "observed_accuracy": 0.8214285714285714,
+          "wilson95": [
+            0.6440857521065705,
+            0.9212149805439572
+          ]
+        },
+        "risk": {
+          "correct": 28,
+          "total": 28,
+          "accuracy": 1.0,
+          "yield": 1.0,
+          "observed_accuracy": 1.0,
+          "wilson95": [
+            0.8793566952341543,
+            0.9999999999999998
+          ]
+        },
+        "capabilities": {
+          "correct": 25,
+          "total": 28,
+          "accuracy": 0.8928571428571429,
+          "yield": 0.8928571428571429,
+          "observed_accuracy": 0.8928571428571429,
+          "wilson95": [
+            0.7280414845132785,
+            0.9628816331707
+          ]
+        },
+        "model": {
+          "correct": 25,
+          "total": 28,
+          "accuracy": 0.8928571428571429,
+          "yield": 0.8928571428571429,
+          "observed_accuracy": 0.8928571428571429,
+          "wilson95": [
+            0.7280414845132785,
+            0.9628816331707
+          ]
+        },
+        "effort": {
+          "correct": 24,
+          "total": 28,
+          "accuracy": 0.8571428571428571,
+          "yield": 0.8571428571428571,
+          "observed_accuracy": 0.8571428571428571,
+          "wilson95": [
+            0.685101978364747,
+            0.9430099468025059
+          ]
+        },
+        "skills": {
+          "correct": 27,
+          "total": 28,
+          "accuracy": 0.9642857142857143,
+          "yield": 0.9642857142857143,
+          "observed_accuracy": 0.9642857142857143,
+          "wilson95": [
+            0.8228780225664668,
+            0.9936674801509623
+          ]
+        },
+        "route_exact": {
+          "correct": 23,
+          "total": 28,
+          "accuracy": 0.8214285714285714,
+          "yield": 0.8214285714285714,
+          "observed_accuracy": 0.8214285714285714,
+          "wilson95": [
+            0.6440857521065705,
+            0.9212149805439572
+          ]
+        },
+        "all_exact": {
+          "correct": 21,
+          "total": 28,
+          "accuracy": 0.75,
+          "yield": 0.75,
+          "observed_accuracy": 0.75,
+          "wilson95": [
+            0.5664432968100104,
+            0.8732350508070668
+          ]
+        }
+      },
+      "set_metrics": {
+        "capabilities": {
+          "tp": 61,
+          "fp": 5,
+          "fn": 1,
+          "micro_f1_observed": 0.953125
+        },
+        "skills": {
+          "tp": 7,
+          "fp": 1,
+          "fn": 0,
+          "micro_f1_observed": 0.9333333333333333
+        }
+      },
+      "hard_count": 5,
+      "high_risk_count": 4,
+      "latency_ms": {
+        "n": 28,
+        "median": 0.00837500010675285,
+        "p95": 0.011666998034343123
+      },
+      "latency_sources": {
+        "live_rules": 28
+      },
+      "paid_calls_this_run": 0,
+      "event_counts": {
+        "hard_to_local": 0,
+        "hard_under_effort": 0,
+        "high_risk_as_low": 0,
+        "high_risk_below_high": 0,
+        "capability_miss": 0,
+        "uncertain": 0,
+        "unobserved_high_risk": 0
+      }
+    }
+  },
+  "phase2": {
+    "rules": {
+      "n": 24,
+      "observed": 24,
+      "coverage": 1.0,
+      "statuses": {
+        "ok": 24
+      },
+      "metrics": {
+        "difficulty": {
+          "correct": 6,
+          "total": 24,
+          "accuracy": 0.25,
+          "yield": 0.25,
+          "observed_accuracy": 0.25,
+          "wilson95": [
+            0.11999366228595004,
+            0.44899444005154004
+          ]
+        },
+        "risk": {
+          "correct": 24,
+          "total": 24,
+          "accuracy": 1.0,
+          "yield": 1.0,
+          "observed_accuracy": 1.0,
+          "wilson95": [
+            0.8620237953250198,
+            1
+          ]
+        },
+        "capabilities": {
+          "correct": 14,
+          "total": 24,
+          "accuracy": 0.5833333333333334,
+          "yield": 0.5833333333333334,
+          "observed_accuracy": 0.5833333333333334,
+          "wilson95": [
+            0.3883466586522876,
+            0.7553239739018824
+          ]
+        },
+        "model": {
+          "correct": 12,
+          "total": 24,
+          "accuracy": 0.5,
+          "yield": 0.5,
+          "observed_accuracy": 0.5,
+          "wilson95": [
+            0.3142742581957335,
+            0.6857257418042665
+          ]
+        },
+        "effort": {
+          "correct": 7,
+          "total": 24,
+          "accuracy": 0.2916666666666667,
+          "yield": 0.2916666666666667,
+          "observed_accuracy": 0.2916666666666667,
+          "wilson95": [
+            0.14914648196960875,
+            0.49167693664496637
+          ]
+        },
+        "skills": {
+          "correct": 21,
+          "total": 24,
+          "accuracy": 0.875,
+          "yield": 0.875,
+          "observed_accuracy": 0.875,
+          "wilson95": [
+            0.6899611872949993,
+            0.9565566591987655
+          ]
+        },
+        "route_exact": {
+          "correct": 7,
+          "total": 24,
+          "accuracy": 0.2916666666666667,
+          "yield": 0.2916666666666667,
+          "observed_accuracy": 0.2916666666666667,
+          "wilson95": [
+            0.14914648196960875,
+            0.49167693664496637
+          ]
+        },
+        "all_exact": {
+          "correct": 3,
+          "total": 24,
+          "accuracy": 0.125,
+          "yield": 0.125,
+          "observed_accuracy": 0.125,
+          "wilson95": [
+            0.04344334080123444,
+            0.31003881270500067
+          ]
+        }
+      },
+      "set_metrics": {
+        "capabilities": {
+          "tp": 45,
+          "fp": 7,
+          "fn": 7,
+          "micro_f1_observed": 0.8653846153846154
+        },
+        "skills": {
+          "tp": 5,
+          "fp": 4,
+          "fn": 1,
+          "micro_f1_observed": 0.6666666666666666
+        }
+      },
+      "hard_count": 5,
+      "high_risk_count": 4,
+      "latency_ms": {
+        "n": 24,
+        "median": 0.011603999155340716,
+        "p95": 0.019208000594517216
+      },
+      "latency_sources": {
+        "live_rules": 24
+      },
+      "paid_calls_this_run": 0,
+      "event_counts": {
+        "hard_to_local": 0,
+        "hard_under_effort": 5,
+        "high_risk_as_low": 0,
+        "high_risk_below_high": 0,
+        "capability_miss": 0,
+        "uncertain": 0,
+        "unobserved_high_risk": 0
+      }
+    },
+    "local": {
+      "n": 24,
+      "observed": 24,
+      "coverage": 1.0,
+      "statuses": {
+        "ok": 24
+      },
+      "metrics": {
+        "difficulty": {
+          "correct": 20,
+          "total": 24,
+          "accuracy": 0.8333333333333334,
+          "yield": 0.8333333333333334,
+          "observed_accuracy": 0.8333333333333334,
+          "wilson95": [
+            0.6414692935030095,
+            0.9332132367136705
+          ]
+        },
+        "risk": {
+          "correct": 23,
+          "total": 24,
+          "accuracy": 0.9583333333333334,
+          "yield": 0.9583333333333334,
+          "observed_accuracy": 0.9583333333333334,
+          "wilson95": [
+            0.7975819352134406,
+            0.9926065438344942
+          ]
+        },
+        "capabilities": {
+          "correct": 13,
+          "total": 24,
+          "accuracy": 0.5416666666666666,
+          "yield": 0.5416666666666666,
+          "observed_accuracy": 0.5416666666666666,
+          "wilson95": [
+            0.3507486535891948,
+            0.72108666268789
+          ]
+        },
+        "model": {
+          "correct": 21,
+          "total": 24,
+          "accuracy": 0.875,
+          "yield": 0.875,
+          "observed_accuracy": 0.875,
+          "wilson95": [
+            0.6899611872949993,
+            0.9565566591987655
+          ]
+        },
+        "effort": {
+          "correct": 20,
+          "total": 24,
+          "accuracy": 0.8333333333333334,
+          "yield": 0.8333333333333334,
+          "observed_accuracy": 0.8333333333333334,
+          "wilson95": [
+            0.6414692935030095,
+            0.9332132367136705
+          ]
+        },
+        "skills": {
+          "correct": 20,
+          "total": 24,
+          "accuracy": 0.8333333333333334,
+          "yield": 0.8333333333333334,
+          "observed_accuracy": 0.8333333333333334,
+          "wilson95": [
+            0.6414692935030095,
+            0.9332132367136705
+          ]
+        },
+        "route_exact": {
+          "correct": 19,
+          "total": 24,
+          "accuracy": 0.7916666666666666,
+          "yield": 0.7916666666666666,
+          "observed_accuracy": 0.7916666666666666,
+          "wilson95": [
+            0.5952954674681133,
+            0.9075517464714814
+          ]
+        },
+        "all_exact": {
+          "correct": 7,
+          "total": 24,
+          "accuracy": 0.2916666666666667,
+          "yield": 0.2916666666666667,
+          "observed_accuracy": 0.2916666666666667,
+          "wilson95": [
+            0.14914648196960875,
+            0.49167693664496637
+          ]
+        }
+      },
+      "set_metrics": {
+        "capabilities": {
+          "tp": 41,
+          "fp": 0,
+          "fn": 11,
+          "micro_f1_observed": 0.8817204301075269
+        },
+        "skills": {
+          "tp": 3,
+          "fp": 1,
+          "fn": 3,
+          "micro_f1_observed": 0.6
+        }
+      },
+      "hard_count": 5,
+      "high_risk_count": 4,
+      "latency_ms": {
+        "n": 24,
+        "median": 542.9147084996657,
+        "p95": 1003.1317079992732
+      },
+      "latency_sources": {
+        "replay": 24
+      },
+      "paid_calls_this_run": 0,
+      "event_counts": {
+        "hard_to_local": 0,
+        "hard_under_effort": 2,
+        "high_risk_as_low": 0,
+        "high_risk_below_high": 0,
+        "capability_miss": 1,
+        "uncertain": 0,
+        "unobserved_high_risk": 0
+      }
+    },
+    "jev": {
+      "n": 24,
+      "observed": 24,
+      "coverage": 1.0,
+      "statuses": {
+        "ok": 24
+      },
+      "metrics": {
+        "difficulty": {
+          "correct": 24,
+          "total": 24,
+          "accuracy": 1.0,
+          "yield": 1.0,
+          "observed_accuracy": 1.0,
+          "wilson95": [
+            0.8620237953250198,
+            1
+          ]
+        },
+        "risk": {
+          "correct": 24,
+          "total": 24,
+          "accuracy": 1.0,
+          "yield": 1.0,
+          "observed_accuracy": 1.0,
+          "wilson95": [
+            0.8620237953250198,
+            1
+          ]
+        },
+        "capabilities": {
+          "correct": 19,
+          "total": 24,
+          "accuracy": 0.7916666666666666,
+          "yield": 0.7916666666666666,
+          "observed_accuracy": 0.7916666666666666,
+          "wilson95": [
+            0.5952954674681133,
+            0.9075517464714814
+          ]
+        },
+        "model": {
+          "correct": 23,
+          "total": 24,
+          "accuracy": 0.9583333333333334,
+          "yield": 0.9583333333333334,
+          "observed_accuracy": 0.9583333333333334,
+          "wilson95": [
+            0.7975819352134406,
+            0.9926065438344942
+          ]
+        },
+        "effort": {
+          "correct": 24,
+          "total": 24,
+          "accuracy": 1.0,
+          "yield": 1.0,
+          "observed_accuracy": 1.0,
+          "wilson95": [
+            0.8620237953250198,
+            1
+          ]
+        },
+        "skills": {
+          "correct": 21,
+          "total": 24,
+          "accuracy": 0.875,
+          "yield": 0.875,
+          "observed_accuracy": 0.875,
+          "wilson95": [
+            0.6899611872949993,
+            0.9565566591987655
+          ]
+        },
+        "route_exact": {
+          "correct": 23,
+          "total": 24,
+          "accuracy": 0.9583333333333334,
+          "yield": 0.9583333333333334,
+          "observed_accuracy": 0.9583333333333334,
+          "wilson95": [
+            0.7975819352134406,
+            0.9926065438344942
+          ]
+        },
+        "all_exact": {
+          "correct": 17,
+          "total": 24,
+          "accuracy": 0.7083333333333334,
+          "yield": 0.7083333333333334,
+          "observed_accuracy": 0.7083333333333334,
+          "wilson95": [
+            0.5083230633550337,
+            0.8508535180303913
+          ]
+        }
+      },
+      "set_metrics": {
+        "capabilities": {
+          "tp": 51,
+          "fp": 4,
+          "fn": 1,
+          "micro_f1_observed": 0.9532710280373832
+        },
+        "skills": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 3,
+          "micro_f1_observed": 0.6666666666666666
+        }
+      },
+      "hard_count": 5,
+      "high_risk_count": 4,
+      "latency_ms": {
+        "n": 24,
+        "median": 296.0732915016706,
+        "p95": 354.1892089997418
+      },
+      "latency_sources": {
+        "replay": 24
+      },
+      "paid_calls_this_run": 0,
+      "event_counts": {
+        "hard_to_local": 0,
+        "hard_under_effort": 0,
+        "high_risk_as_low": 0,
+        "high_risk_below_high": 0,
+        "capability_miss": 0,
+        "uncertain": 0,
+        "unobserved_high_risk": 0
+      }
+    },
+    "jev_guard_0.70": {
+      "n": 24,
+      "observed": 15,
+      "coverage": 0.625,
+      "statuses": {
+        "ok": 15,
+        "abstain": 9
+      },
+      "metrics": {
+        "difficulty": {
+          "correct": 15,
+          "total": 24,
+          "accuracy": 0.625,
+          "yield": 0.625,
+          "observed_accuracy": 1.0,
+          "wilson95": [
+            0.42709962442674276,
+            0.7884063244045122
+          ]
+        },
+        "risk": {
+          "correct": 15,
+          "total": 24,
+          "accuracy": 0.625,
+          "yield": 0.625,
+          "observed_accuracy": 1.0,
+          "wilson95": [
+            0.42709962442674276,
+            0.7884063244045122
+          ]
+        },
+        "capabilities": {
+          "correct": 15,
+          "total": 24,
+          "accuracy": 0.625,
+          "yield": 0.625,
+          "observed_accuracy": 1.0,
+          "wilson95": [
+            0.42709962442674276,
+            0.7884063244045122
+          ]
+        },
+        "model": {
+          "correct": 15,
+          "total": 24,
+          "accuracy": 0.625,
+          "yield": 0.625,
+          "observed_accuracy": 1.0,
+          "wilson95": [
+            0.42709962442674276,
+            0.7884063244045122
+          ]
+        },
+        "effort": {
+          "correct": 15,
+          "total": 24,
+          "accuracy": 0.625,
+          "yield": 0.625,
+          "observed_accuracy": 1.0,
+          "wilson95": [
+            0.42709962442674276,
+            0.7884063244045122
+          ]
+        },
+        "skills": {
+          "correct": 15,
+          "total": 24,
+          "accuracy": 0.625,
+          "yield": 0.625,
+          "observed_accuracy": 1.0,
+          "wilson95": [
+            0.42709962442674276,
+            0.7884063244045122
+          ]
+        },
+        "route_exact": {
+          "correct": 15,
+          "total": 24,
+          "accuracy": 0.625,
+          "yield": 0.625,
+          "observed_accuracy": 1.0,
+          "wilson95": [
+            0.42709962442674276,
+            0.7884063244045122
+          ]
+        },
+        "all_exact": {
+          "correct": 15,
+          "total": 24,
+          "accuracy": 0.625,
+          "yield": 0.625,
+          "observed_accuracy": 1.0,
+          "wilson95": [
+            0.42709962442674276,
+            0.7884063244045122
+          ]
+        }
+      },
+      "set_metrics": {
+        "capabilities": {
+          "tp": 35,
+          "fp": 0,
+          "fn": 0,
+          "micro_f1_observed": 1.0
+        },
+        "skills": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "micro_f1_observed": 1.0
+        }
+      },
+      "hard_count": 5,
+      "high_risk_count": 4,
+      "latency_ms": {
+        "n": 24,
+        "median": 296.0732915016706,
+        "p95": 354.1892089997418
+      },
+      "latency_sources": {
+        "replay": 24
+      },
+      "paid_calls_this_run": 0,
+      "event_counts": {
+        "hard_to_local": 0,
+        "hard_under_effort": 0,
+        "high_risk_as_low": 0,
+        "high_risk_below_high": 0,
+        "capability_miss": 0,
+        "uncertain": 9,
+        "unobserved_high_risk": 3
+      }
+    }
+  },
+  "phase3": {
+    "rules": {
+      "n": 32,
+      "observed": 32,
+      "coverage": 1.0,
+      "statuses": {
+        "ok": 32
+      },
+      "metrics": {
+        "difficulty": {
+          "correct": 12,
+          "total": 32,
+          "accuracy": 0.375,
+          "yield": 0.375,
+          "observed_accuracy": 0.375,
+          "wilson95": [
+            0.22933887309454212,
+            0.5474559264692255
+          ]
+        },
+        "risk": {
+          "correct": 32,
+          "total": 32,
+          "accuracy": 1.0,
+          "yield": 1.0,
+          "observed_accuracy": 1.0,
+          "wilson95": [
+            0.8928208017449293,
+            1
+          ]
+        },
+        "capabilities": {
+          "correct": 18,
+          "total": 32,
+          "accuracy": 0.5625,
+          "yield": 0.5625,
+          "observed_accuracy": 0.5625,
+          "wilson95": [
+            0.3932559113685198,
+            0.7183466888495963
+          ]
+        },
+        "model": {
+          "correct": 16,
+          "total": 32,
+          "accuracy": 0.5,
+          "yield": 0.5,
+          "observed_accuracy": 0.5,
+          "wilson95": [
+            0.33630882869327483,
+            0.6636911713067252
+          ]
+        },
+        "effort": {
+          "correct": 12,
+          "total": 32,
+          "accuracy": 0.375,
+          "yield": 0.375,
+          "observed_accuracy": 0.375,
+          "wilson95": [
+            0.22933887309454212,
+            0.5474559264692255
+          ]
+        },
+        "skills": {
+          "correct": 29,
+          "total": 32,
+          "accuracy": 0.90625,
+          "yield": 0.90625,
+          "observed_accuracy": 0.90625,
+          "wilson95": [
+            0.7578184527161212,
+            0.9675984487016337
+          ]
+        },
+        "route_exact": {
+          "correct": 11,
+          "total": 32,
+          "accuracy": 0.34375,
+          "yield": 0.34375,
+          "observed_accuracy": 0.34375,
+          "wilson95": [
+            0.20410437924433172,
+            0.5168891202103778
+          ]
+        },
+        "all_exact": {
+          "correct": 7,
+          "total": 32,
+          "accuracy": 0.21875,
+          "yield": 0.21875,
+          "observed_accuracy": 0.21875,
+          "wilson95": [
+            0.11023836252604186,
+            0.3875499364924353
+          ]
+        }
+      },
+      "set_metrics": {
+        "capabilities": {
+          "tp": 59,
+          "fp": 6,
+          "fn": 12,
+          "micro_f1_observed": 0.8676470588235294
+        },
+        "skills": {
+          "tp": 6,
+          "fp": 4,
+          "fn": 1,
+          "micro_f1_observed": 0.7058823529411765
+        }
+      },
+      "hard_count": 9,
+      "high_risk_count": 4,
+      "latency_ms": {
+        "n": 32,
+        "median": 0.011624999388004653,
+        "p95": 0.036875000660074875
+      },
+      "latency_sources": {
+        "live_rules": 32
+      },
+      "paid_calls_this_run": 0,
+      "event_counts": {
+        "hard_to_local": 0,
+        "hard_under_effort": 6,
+        "high_risk_as_low": 0,
+        "high_risk_below_high": 0,
+        "capability_miss": 2,
+        "uncertain": 0,
+        "unobserved_high_risk": 0
+      }
+    },
+    "local": {
+      "n": 32,
+      "observed": 32,
+      "coverage": 1.0,
+      "statuses": {
+        "ok": 32
+      },
+      "metrics": {
+        "difficulty": {
+          "correct": 27,
+          "total": 32,
+          "accuracy": 0.84375,
+          "yield": 0.84375,
+          "observed_accuracy": 0.84375,
+          "wilson95": [
+            0.682458504024696,
+            0.9313557971749429
+          ]
+        },
+        "risk": {
+          "correct": 29,
+          "total": 32,
+          "accuracy": 0.90625,
+          "yield": 0.90625,
+          "observed_accuracy": 0.90625,
+          "wilson95": [
+            0.7578184527161212,
+            0.9675984487016337
+          ]
+        },
+        "capabilities": {
+          "correct": 17,
+          "total": 32,
+          "accuracy": 0.53125,
+          "yield": 0.53125,
+          "observed_accuracy": 0.53125,
+          "wilson95": [
+            0.3644951711897464,
+            0.6913061289193116
+          ]
+        },
+        "model": {
+          "correct": 26,
+          "total": 32,
+          "accuracy": 0.8125,
+          "yield": 0.8125,
+          "observed_accuracy": 0.8125,
+          "wilson95": [
+            0.6469084479862404,
+            0.9111045531043405
+          ]
+        },
+        "effort": {
+          "correct": 27,
+          "total": 32,
+          "accuracy": 0.84375,
+          "yield": 0.84375,
+          "observed_accuracy": 0.84375,
+          "wilson95": [
+            0.682458504024696,
+            0.9313557971749429
+          ]
+        },
+        "skills": {
+          "correct": 28,
+          "total": 32,
+          "accuracy": 0.875,
+          "yield": 0.875,
+          "observed_accuracy": 0.875,
+          "wilson95": [
+            0.7193169451834978,
+            0.9502986561251991
+          ]
+        },
+        "route_exact": {
+          "correct": 26,
+          "total": 32,
+          "accuracy": 0.8125,
+          "yield": 0.8125,
+          "observed_accuracy": 0.8125,
+          "wilson95": [
+            0.6469084479862404,
+            0.9111045531043405
+          ]
+        },
+        "all_exact": {
+          "correct": 11,
+          "total": 32,
+          "accuracy": 0.34375,
+          "yield": 0.34375,
+          "observed_accuracy": 0.34375,
+          "wilson95": [
+            0.20410437924433172,
+            0.5168891202103778
+          ]
+        }
+      },
+      "set_metrics": {
+        "capabilities": {
+          "tp": 56,
+          "fp": 0,
+          "fn": 15,
+          "micro_f1_observed": 0.8818897637795275
+        },
+        "skills": {
+          "tp": 4,
+          "fp": 1,
+          "fn": 3,
+          "micro_f1_observed": 0.6666666666666666
+        }
+      },
+      "hard_count": 9,
+      "high_risk_count": 4,
+      "latency_ms": {
+        "n": 32,
+        "median": 717.7162500011036,
+        "p95": 2417.1474590002617
+      },
+      "latency_sources": {
+        "live_local": 32
+      },
+      "paid_calls_this_run": 0,
+      "event_counts": {
+        "hard_to_local": 0,
+        "hard_under_effort": 3,
+        "high_risk_as_low": 1,
+        "high_risk_below_high": 1,
+        "capability_miss": 1,
+        "uncertain": 0,
+        "unobserved_high_risk": 0
+      }
+    },
+    "jev": {
+      "n": 32,
+      "observed": 0,
+      "coverage": 0.0,
+      "statuses": {
+        "missing": 32
+      },
+      "metrics": {
+        "difficulty": {
+          "correct": 0,
+          "total": 32,
+          "accuracy": null,
+          "yield": 0.0,
+          "observed_accuracy": null,
+          "wilson95": null
+        },
+        "risk": {
+          "correct": 0,
+          "total": 32,
+          "accuracy": null,
+          "yield": 0.0,
+          "observed_accuracy": null,
+          "wilson95": null
+        },
+        "capabilities": {
+          "correct": 0,
+          "total": 32,
+          "accuracy": null,
+          "yield": 0.0,
+          "observed_accuracy": null,
+          "wilson95": null
+        },
+        "model": {
+          "correct": 0,
+          "total": 32,
+          "accuracy": null,
+          "yield": 0.0,
+          "observed_accuracy": null,
+          "wilson95": null
+        },
+        "effort": {
+          "correct": 0,
+          "total": 32,
+          "accuracy": null,
+          "yield": 0.0,
+          "observed_accuracy": null,
+          "wilson95": null
+        },
+        "skills": {
+          "correct": 0,
+          "total": 32,
+          "accuracy": null,
+          "yield": 0.0,
+          "observed_accuracy": null,
+          "wilson95": null
+        },
+        "route_exact": {
+          "correct": 0,
+          "total": 32,
+          "accuracy": null,
+          "yield": 0.0,
+          "observed_accuracy": null,
+          "wilson95": null
+        },
+        "all_exact": {
+          "correct": 0,
+          "total": 32,
+          "accuracy": null,
+          "yield": 0.0,
+          "observed_accuracy": null,
+          "wilson95": null
+        }
+      },
+      "set_metrics": {
+        "capabilities": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "micro_f1_observed": null
+        },
+        "skills": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "micro_f1_observed": null
+        }
+      },
+      "hard_count": 9,
+      "high_risk_count": 4,
+      "latency_ms": null,
+      "latency_sources": {
+        "replay": 32
+      },
+      "paid_calls_this_run": 0,
+      "event_counts": {
+        "hard_to_local": 0,
+        "hard_under_effort": 0,
+        "high_risk_as_low": 0,
+        "high_risk_below_high": 0,
+        "capability_miss": 0,
+        "uncertain": 0,
+        "unobserved_high_risk": 4
+      }
+    },
+    "local_serial_repeat": {
+      "n": 32,
+      "observed": 32,
+      "coverage": 1.0,
+      "statuses": {
+        "ok": 32
+      },
+      "metrics": {
+        "difficulty": {
+          "correct": 27,
+          "total": 32,
+          "accuracy": 0.84375,
+          "yield": 0.84375,
+          "observed_accuracy": 0.84375,
+          "wilson95": [
+            0.682458504024696,
+            0.9313557971749429
+          ]
+        },
+        "risk": {
+          "correct": 29,
+          "total": 32,
+          "accuracy": 0.90625,
+          "yield": 0.90625,
+          "observed_accuracy": 0.90625,
+          "wilson95": [
+            0.7578184527161212,
+            0.9675984487016337
+          ]
+        },
+        "capabilities": {
+          "correct": 17,
+          "total": 32,
+          "accuracy": 0.53125,
+          "yield": 0.53125,
+          "observed_accuracy": 0.53125,
+          "wilson95": [
+            0.3644951711897464,
+            0.6913061289193116
+          ]
+        },
+        "model": {
+          "correct": 26,
+          "total": 32,
+          "accuracy": 0.8125,
+          "yield": 0.8125,
+          "observed_accuracy": 0.8125,
+          "wilson95": [
+            0.6469084479862404,
+            0.9111045531043405
+          ]
+        },
+        "effort": {
+          "correct": 27,
+          "total": 32,
+          "accuracy": 0.84375,
+          "yield": 0.84375,
+          "observed_accuracy": 0.84375,
+          "wilson95": [
+            0.682458504024696,
+            0.9313557971749429
+          ]
+        },
+        "skills": {
+          "correct": 28,
+          "total": 32,
+          "accuracy": 0.875,
+          "yield": 0.875,
+          "observed_accuracy": 0.875,
+          "wilson95": [
+            0.7193169451834978,
+            0.9502986561251991
+          ]
+        },
+        "route_exact": {
+          "correct": 26,
+          "total": 32,
+          "accuracy": 0.8125,
+          "yield": 0.8125,
+          "observed_accuracy": 0.8125,
+          "wilson95": [
+            0.6469084479862404,
+            0.9111045531043405
+          ]
+        },
+        "all_exact": {
+          "correct": 11,
+          "total": 32,
+          "accuracy": 0.34375,
+          "yield": 0.34375,
+          "observed_accuracy": 0.34375,
+          "wilson95": [
+            0.20410437924433172,
+            0.5168891202103778
+          ]
+        }
+      },
+      "set_metrics": {
+        "capabilities": {
+          "tp": 56,
+          "fp": 0,
+          "fn": 15,
+          "micro_f1_observed": 0.8818897637795275
+        },
+        "skills": {
+          "tp": 4,
+          "fp": 1,
+          "fn": 3,
+          "micro_f1_observed": 0.6666666666666666
+        }
+      },
+      "hard_count": 9,
+      "high_risk_count": 4,
+      "latency_ms": {
+        "n": 32,
+        "median": 545.7348125000863,
+        "p95": 1045.6462500005728
+      },
+      "latency_sources": {
+        "live_local": 32
+      },
+      "paid_calls_this_run": 0,
+      "event_counts": {
+        "hard_to_local": 0,
+        "hard_under_effort": 3,
+        "high_risk_as_low": 1,
+        "high_risk_below_high": 1,
+        "capability_miss": 1,
+        "uncertain": 0,
+        "unobserved_high_risk": 0
+      }
+    },
+    "repeat_agreement": {
+      "identical_assessments": 32,
+      "n": 32
+    }
+  },
+  "limits": [
+    "AI-authored synthetic preference labels, no independent human adjudication.",
+    "Phase 2 provider observations are historical replay, not fresh inference.",
+    "Phase 3 Jev unobserved; no new paid calls.",
+    "Local primary accuracy is first pass; serialized repeat timing is separate.",
+    "No autonomous agent integration or optimal-model proof."
+  ],
+  "execution": {
+    "n": 6,
+    "passed": 5,
+    "failed_cases": [
+      "README.md"
+    ],
+    "scope": "Data-file repairs in fresh temporary directories; no generated source execution, tools, agent integration, network except opted-in loopback inference."
+  }
+}

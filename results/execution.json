@@ -1,0 +1,100 @@
+{
+  "n": 6,
+  "passed": 5,
+  "records": [
+    {
+      "case": "config.json",
+      "passed": true,
+      "error_type": null,
+      "latency_ms": 581.3067909984966,
+      "usage": {
+        "prompt_eval_count": 118,
+        "eval_count": 27,
+        "load_duration": 51411458,
+        "total_duration": 578044875
+      }
+    },
+    {
+      "case": "rows.csv",
+      "passed": true,
+      "error_type": null,
+      "latency_ms": 868.6078329992597,
+      "usage": {
+        "prompt_eval_count": 117,
+        "eval_count": 23,
+        "load_duration": 51436334,
+        "total_duration": 864154042
+      }
+    },
+    {
+      "case": "README.md",
+      "passed": false,
+      "error_type": null,
+      "latency_ms": 855.3712089997134,
+      "usage": {
+        "prompt_eval_count": 113,
+        "eval_count": 21,
+        "load_duration": 51428417,
+        "total_duration": 851799750
+      }
+    },
+    {
+      "case": "app.ini",
+      "passed": true,
+      "error_type": null,
+      "latency_ms": 1032.289667000441,
+      "usage": {
+        "prompt_eval_count": 108,
+        "eval_count": 20,
+        "load_duration": 51373125,
+        "total_duration": 1027837750
+      }
+    },
+    {
+      "case": "events.jsonl",
+      "passed": true,
+      "error_type": null,
+      "latency_ms": 963.924916999531,
+      "usage": {
+        "prompt_eval_count": 133,
+        "eval_count": 29,
+        "load_duration": 50935292,
+        "total_duration": 959805500
+      }
+    },
+    {
+      "case": "versions.json",
+      "passed": true,
+      "error_type": null,
+      "latency_ms": 992.4639170021692,
+      "usage": {
+        "prompt_eval_count": 120,
+        "eval_count": 33,
+        "load_duration": 50436917,
+        "total_duration": 988756000
+      }
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.5:9b",
+    "digest": "d63f830f28d515fefea546f213fca7a75e9dd5176ef51a6deabc952d1c99a911",
+    "details": {
+      "parent_model": "",
+      "format": "safetensors",
+      "family": "qwen3_5",
+      "families": null,
+      "parameter_size": "9.7B",
+      "quantization_level": "nvfp4",
+      "runner": "mlx"
+    },
+    "settings": {
+      "think": false,
+      "num_ctx": 4096,
+      "num_predict": 512,
+      "seed": 42,
+      "temperature": 0
+    }
+  },
+  "paid_calls": 0,
+  "scope": "Data-file repairs in fresh temporary directories; no generated source execution, tools, agent integration, network except opted-in loopback inference."
+}

@@ -1,0 +1,539 @@
+{
+  "inputs_sha256": "d6e5e027d7e360e6360ecf4d356f2e5196fd0242c5bf456baecf5d19b545a890",
+  "labels": [
+    {
+      "id": "H001",
+      "task_sha256": "9c750f81afa034f9adc37919d53e951f9aba6456a8c10757f2bbaee0baf9ee48",
+      "expected": {
+        "difficulty": "hard",
+        "risk": "high",
+        "capabilities": [
+          "code",
+          "text",
+          "tool_use"
+        ],
+        "model": "deep",
+        "effort": "high",
+        "skills": [
+          "vercel:deployments-cicd"
+        ]
+      },
+      "family": "risk_control"
+    },
+    {
+      "id": "H002",
+      "task_sha256": "e9e821f0a3add28c0afffcb625a281a9c68b359c29c28a94cf5e4c78d1187d9a",
+      "expected": {
+        "difficulty": "simple",
+        "risk": "low",
+        "capabilities": [
+          "code",
+          "text",
+          "tool_use"
+        ],
+        "model": "general",
+        "effort": "low",
+        "skills": []
+      },
+      "family": "repository"
+    },
+    {
+      "id": "H003",
+      "task_sha256": "779948d7dc1502bc2bf46e0c7701693de7c1883897f5167c235a26ddb3d91a6d",
+      "expected": {
+        "difficulty": "simple",
+        "risk": "low",
+        "capabilities": [
+          "text"
+        ],
+        "model": "local",
+        "effort": "low",
+        "skills": []
+      },
+      "family": "bounded"
+    },
+    {
+      "id": "H004",
+      "task_sha256": "5085ddde1d81c3838da47978730bb8f51592e58508add9fb2cad5d020aa2a878",
+      "expected": {
+        "difficulty": "hard",
+        "risk": "low",
+        "capabilities": [
+          "code",
+          "text"
+        ],
+        "model": "deep",
+        "effort": "high",
+        "skills": []
+      },
+      "family": "systems"
+    },
+    {
+      "id": "H005",
+      "task_sha256": "a70177160f49fdc23b2486dc32d4005a5892c3fc30306ff398b7f5fab43b07d4",
+      "expected": {
+        "difficulty": "hard",
+        "risk": "medium",
+        "capabilities": [
+          "code",
+          "text"
+        ],
+        "model": "none",
+        "effort": "none",
+        "skills": []
+      },
+      "family": "privacy"
+    },
+    {
+      "id": "H006",
+      "task_sha256": "dda785df21118cb2d4e8bdc3792394a4a13b61f009721ce07dfd6c278dcac6c5",
+      "expected": {
+        "difficulty": "simple",
+        "risk": "medium",
+        "capabilities": [
+          "text",
+          "tool_use"
+        ],
+        "model": "general",
+        "effort": "low",
+        "skills": []
+      },
+      "family": "risk_control"
+    },
+    {
+      "id": "H007",
+      "task_sha256": "1aebc3f6bf76d0400ca1894697695955ca97aabe3d88e9e1bd4faba06823c5cc",
+      "expected": {
+        "difficulty": "simple",
+        "risk": "low",
+        "capabilities": [
+          "code",
+          "text"
+        ],
+        "model": "local",
+        "effort": "low",
+        "skills": []
+      },
+      "family": "code_reading"
+    },
+    {
+      "id": "H008",
+      "task_sha256": "3e5120708df5ff2b933a2b75064a6411f208321ce439189365295381342e27a1",
+      "expected": {
+        "difficulty": "unknown",
+        "risk": "low",
+        "capabilities": [
+          "code",
+          "text"
+        ],
+        "model": "deep",
+        "effort": "high",
+        "skills": []
+      },
+      "family": "underspecified"
+    },
+    {
+      "id": "H009",
+      "task_sha256": "beeafce9ab24259b1b61f17aa2d45dc25b697e1aa54148069a25b180ddb8b855",
+      "expected": {
+        "difficulty": "hard",
+        "risk": "low",
+        "capabilities": [
+          "code",
+          "text"
+        ],
+        "model": "deep",
+        "effort": "high",
+        "skills": []
+      },
+      "family": "context"
+    },
+    {
+      "id": "H010",
+      "task_sha256": "9180d89dab16da09cb781e387005139ae3b0cfcf36b0ddb59da9bb2ef3ba0ac3",
+      "expected": {
+        "difficulty": "moderate",
+        "risk": "low",
+        "capabilities": [
+          "text"
+        ],
+        "model": "general",
+        "effort": "medium",
+        "skills": []
+      },
+      "family": "planning"
+    },
+    {
+      "id": "H011",
+      "task_sha256": "f66122b92de731f64a5f911d7e93b40b9c60a454790fda27161c527b43967ea8",
+      "expected": {
+        "difficulty": "simple",
+        "risk": "low",
+        "capabilities": [
+          "code",
+          "text"
+        ],
+        "model": "local",
+        "effort": "low",
+        "skills": []
+      },
+      "family": "code_reading"
+    },
+    {
+      "id": "H012",
+      "task_sha256": "708c53c85d1330afd72020b4f522516db9fa3d5a7ffeae48ada1cd1117a2e487",
+      "expected": {
+        "difficulty": "hard",
+        "risk": "low",
+        "capabilities": [
+          "code",
+          "text"
+        ],
+        "model": "deep",
+        "effort": "high",
+        "skills": []
+      },
+      "family": "systems"
+    },
+    {
+      "id": "H013",
+      "task_sha256": "eb9d5240d2164fe5758fa0ac9a1cbb7eb8bb9fe47d307a17d1d33cd593c475c1",
+      "expected": {
+        "difficulty": "moderate",
+        "risk": "low",
+        "capabilities": [
+          "text",
+          "tool_use",
+          "vision"
+        ],
+        "model": "visual",
+        "effort": "medium",
+        "skills": [
+          "pdf:pdf"
+        ]
+      },
+      "family": "skills"
+    },
+    {
+      "id": "H014",
+      "task_sha256": "e4487e181770a675fb0e8a05a38e29d64dbf70e87ced7ef7dbbd25d721be4c5a",
+      "expected": {
+        "difficulty": "moderate",
+        "risk": "low",
+        "capabilities": [
+          "code",
+          "text",
+          "tool_use",
+          "web"
+        ],
+        "model": "general",
+        "effort": "medium",
+        "skills": []
+      },
+      "family": "web"
+    },
+    {
+      "id": "H015",
+      "task_sha256": "d3895a12cdd54eae3cfbc9111c4bdaceccbe223100c6123f01f925d495a8c155",
+      "expected": {
+        "difficulty": "moderate",
+        "risk": "low",
+        "capabilities": [
+          "code",
+          "text"
+        ],
+        "model": "general",
+        "effort": "medium",
+        "skills": []
+      },
+      "family": "code_reading"
+    },
+    {
+      "id": "H016",
+      "task_sha256": "2e3029c98ce44881c5b3561f6f2fb4e5f5af96b0b89a82e08b8c8e2ad6af8b0c",
+      "expected": {
+        "difficulty": "moderate",
+        "risk": "low",
+        "capabilities": [
+          "code",
+          "text",
+          "tool_use",
+          "vision"
+        ],
+        "model": "visual",
+        "effort": "medium",
+        "skills": [
+          "vercel:verification"
+        ]
+      },
+      "family": "skills"
+    },
+    {
+      "id": "H017",
+      "task_sha256": "8dcf7f8943586825fbe4ad177d5d1a3e175a2c1262a6d3b3577eab7d0f66ee84",
+      "expected": {
+        "difficulty": "simple",
+        "risk": "low",
+        "capabilities": [
+          "text"
+        ],
+        "model": "local",
+        "effort": "low",
+        "skills": []
+      },
+      "family": "bounded"
+    },
+    {
+      "id": "H018",
+      "task_sha256": "6f114ee1d23a7276b10f0c2aed1cd1bc00dfd9495679e90b8e619cc3b6013ed2",
+      "expected": {
+        "difficulty": "moderate",
+        "risk": "low",
+        "capabilities": [
+          "code",
+          "text",
+          "tool_use"
+        ],
+        "model": "general",
+        "effort": "medium",
+        "skills": []
+      },
+      "family": "repository"
+    },
+    {
+      "id": "H019",
+      "task_sha256": "c85909310008462d593b4c0236712ccbcf95d1ff9c9c5f2e7fc9f57c4ad9a720",
+      "expected": {
+        "difficulty": "moderate",
+        "risk": "low",
+        "capabilities": [
+          "code",
+          "text",
+          "tool_use",
+          "vision"
+        ],
+        "model": "visual",
+        "effort": "medium",
+        "skills": [
+          "figma:figma-design-to-code"
+        ]
+      },
+      "family": "skills"
+    },
+    {
+      "id": "H020",
+      "task_sha256": "92ddbf5e3e148b99bd2e7dbc9be7d1ef83baed5238df5369375842e400e18bd3",
+      "expected": {
+        "difficulty": "unknown",
+        "risk": "high",
+        "capabilities": [
+          "text",
+          "tool_use"
+        ],
+        "model": "deep",
+        "effort": "high",
+        "skills": [
+          "vercel:deployments-cicd"
+        ]
+      },
+      "family": "underspecified"
+    },
+    {
+      "id": "H021",
+      "task_sha256": "a948ce497e9a6c2e2b0f48e77fe2f452b0e214848c585b386943506464397a87",
+      "expected": {
+        "difficulty": "simple",
+        "risk": "high",
+        "capabilities": [
+          "text",
+          "tool_use"
+        ],
+        "model": "general",
+        "effort": "low",
+        "skills": []
+      },
+      "family": "risk_control"
+    },
+    {
+      "id": "H022",
+      "task_sha256": "4ab22222e9cd287322f3f63de106ee56bb664de869a19cfdfa4236049dee6020",
+      "expected": {
+        "difficulty": "hard",
+        "risk": "low",
+        "capabilities": [
+          "code",
+          "hardware_debug",
+          "text",
+          "tool_use"
+        ],
+        "model": "none",
+        "effort": "none",
+        "skills": [
+          "reverse-engineer-anything"
+        ]
+      },
+      "family": "unavailable_capability"
+    },
+    {
+      "id": "H023",
+      "task_sha256": "c2f15624ea7439e9c05540243017b97c3f1aeed35faf4c76de16c1ea02b82971",
+      "expected": {
+        "difficulty": "unknown",
+        "risk": "low",
+        "capabilities": [
+          "code",
+          "text"
+        ],
+        "model": "deep",
+        "effort": "high",
+        "skills": []
+      },
+      "family": "underspecified"
+    },
+    {
+      "id": "H024",
+      "task_sha256": "11da70f312c66ff85370ac330e4574d77c219bc1a7012bcb420c2d05b5809b33",
+      "expected": {
+        "difficulty": "simple",
+        "risk": "low",
+        "capabilities": [
+          "text",
+          "vision"
+        ],
+        "model": "visual",
+        "effort": "low",
+        "skills": []
+      },
+      "family": "vision"
+    },
+    {
+      "id": "H025",
+      "task_sha256": "81ab89948bf2c4927008ec6cb3048ee8dbc0d982f892a3d593cbb01af3a16fdd",
+      "expected": {
+        "difficulty": "hard",
+        "risk": "low",
+        "capabilities": [
+          "code",
+          "text"
+        ],
+        "model": "deep",
+        "effort": "high",
+        "skills": []
+      },
+      "family": "systems"
+    },
+    {
+      "id": "H026",
+      "task_sha256": "56393831b222a7a02b51570f956213a1a5828f4ed21439458815702e1d2922e1",
+      "expected": {
+        "difficulty": "simple",
+        "risk": "low",
+        "capabilities": [
+          "text"
+        ],
+        "model": "local",
+        "effort": "low",
+        "skills": []
+      },
+      "family": "negation"
+    },
+    {
+      "id": "H027",
+      "task_sha256": "dd84995e1fd173a52f4510334c8105b184c8a9feb19faee1fab6e652e15becce",
+      "expected": {
+        "difficulty": "simple",
+        "risk": "low",
+        "capabilities": [
+          "text"
+        ],
+        "model": "local",
+        "effort": "low",
+        "skills": []
+      },
+      "family": "bounded"
+    },
+    {
+      "id": "H028",
+      "task_sha256": "ef281df5e801d1369b590e002242bfb37fce889578f649ec3df44b39f0e7b304",
+      "expected": {
+        "difficulty": "unknown",
+        "risk": "low",
+        "capabilities": [
+          "text",
+          "vision"
+        ],
+        "model": "deep",
+        "effort": "high",
+        "skills": []
+      },
+      "family": "underspecified"
+    },
+    {
+      "id": "H029",
+      "task_sha256": "3cef9a09ccd84579ea4db8e0d423ee417a3df7e850510e44c1d607ebc146b870",
+      "expected": {
+        "difficulty": "moderate",
+        "risk": "low",
+        "capabilities": [
+          "text",
+          "tool_use"
+        ],
+        "model": "general",
+        "effort": "medium",
+        "skills": [
+          "spreadsheets:Spreadsheets"
+        ]
+      },
+      "family": "skills"
+    },
+    {
+      "id": "H030",
+      "task_sha256": "d2b6097be5f0cc01b1ab6ea2d2fc0331fab9e2450aec2e6018aaa49f239250f0",
+      "expected": {
+        "difficulty": "simple",
+        "risk": "high",
+        "capabilities": [
+          "text",
+          "tool_use"
+        ],
+        "model": "general",
+        "effort": "low",
+        "skills": []
+      },
+      "family": "risk_control"
+    },
+    {
+      "id": "H031",
+      "task_sha256": "3eeff22c74b3c25b5a3c7158f6ea1c9ec8d98273d36e01ef22c3bf7233cab78c",
+      "expected": {
+        "difficulty": "hard",
+        "risk": "low",
+        "capabilities": [
+          "code",
+          "text"
+        ],
+        "model": "deep",
+        "effort": "high",
+        "skills": []
+      },
+      "family": "systems"
+    },
+    {
+      "id": "H032",
+      "task_sha256": "978e370fdc403814f7bdc0a524544e6aed08c6d7ebfdc25be0299377f70332a7",
+      "expected": {
+        "difficulty": "hard",
+        "risk": "low",
+        "capabilities": [
+          "code",
+          "text"
+        ],
+        "model": "deep",
+        "effort": "high",
+        "skills": []
+      },
+      "family": "systems"
+    }
+  ],
+  "provenance": "New single-author synthetic test, labels precommitted before model inference. Predictor never opens labels; not independent human adjudication. Shuffled IDs. No tuning after results."
+}

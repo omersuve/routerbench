@@ -1,0 +1,8 @@
+{
+  "created_at": "2026-11-16T21:48:22.545975+00:00",
+  "count": 32,
+  "inputs_sha256": "d6e5e027d7e360e6360ecf4d356f2e5196fd0242c5bf456baecf5d19b545a890",
+  "labels_sha256": "bff7b0df2f6f9c67b28345125760405e0d77d0328ffbfa11bdae02798c9c779e",
+  "license": "MIT",
+  "blindness": "Protocol-level separation only; author is not blind to labels. For external blind evaluation distribute inputs only and retain labels with an independent scorer."
+}

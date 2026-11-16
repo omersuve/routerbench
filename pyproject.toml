@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "routerbench-pilot"
+version = "0.1.0"
+description = "Observe-only provider-neutral agent routing evaluation harness"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/omersuve/routerbench"
+Issues = "https://github.com/omersuve/routerbench/issues"
+
+[project.scripts]
+routerbench = "routerbench.__main__:main"
+
+[tool.setuptools]
+packages = ["routerbench"]
+
+[tool.setuptools.package-data]
+routerbench = ["rubric.json"]

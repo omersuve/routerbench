@@ -1,0 +1,20 @@
+{
+  "inputs_sha256": "576196aa46f29feb0a0426027e621305bba701b0088480c1f7c5a4c9acf9ea70",
+  "labels": [
+    {
+      "id": "demo",
+      "task_sha256": "a57020f8c5f589436eaf8d33e680881f77af90a7eb00f56214c9d7233cc86f10",
+      "expected": {
+        "difficulty": "simple",
+        "risk": "low",
+        "capabilities": [
+          "text"
+        ],
+        "skills": [],
+        "model": "local",
+        "effort": "low"
+      }
+    }
+  ],
+  "provenance": "Hand-authored schema illustration."
+}
